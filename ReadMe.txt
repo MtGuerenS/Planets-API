@@ -3,7 +3,7 @@ This is a basic rest api that uses mongodb as its database. It collects data abo
 The planet struct follows the following schema:
 
 type planets struct {
-    _id                 ObjectID()      
+    	_id                 ObjectID()      
 	name 				string
 	orderFromSun 		int
 	hasRings 			bool

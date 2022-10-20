@@ -8,7 +8,7 @@ import (
 )
 
 // Will return the uri to access mongdb database using godotenv
-func EnvMongoUri() {
+func EnvMongoUri() string {
 	if err := godotenv.Load(); err != nil {
 		log.Println("No .env file found \n", err)
 	}
